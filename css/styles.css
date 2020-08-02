@@ -36,9 +36,9 @@ h3 {
 .container {
     margin: auto;
     margin-top: .5rem;
-    max-width: 1100px;
-    min-width: 500px;
+    min-width: 80vw;
     padding: 0 20px;
+    /* overflow: hidden; */
 }
 
 .clr {
@@ -63,12 +63,14 @@ input {
 body {
     font-family: var(--font);
     margin: 0;
-    min-width: 900px;
+    max-width: 90vw;
+    min-width: 75vw;
     background-color: var(--first-color);
     padding-top: 4rem;
     display: grid;
     /* justify-items is used to center grid items vertically */
     justify-items: center;
+    overflow: auto;
 }
 
 
@@ -84,6 +86,8 @@ body {
     top: 0;
     color: var(--third-color);
     box-shadow: var(--shadow);
+    min-width: 900px;
+
 }
 
 
@@ -93,18 +97,23 @@ body {
     float: right;
     /* margin-top: .5rem; */
     margin-left: 1rem;
-    /* overflow: auto; */
+    overflow: auto;
+    max-width: 1100px;
+    min-width: 900px;
+
 }
 
 .nav ul li a.current {
     background: #444444;
     color: var(--fith-color);
-    padding: 35px;
+    padding: 55px;
     border-radius: 5px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     margin-right: 0px;
     overflow: auto;
+    max-width: 1100px;
+    min-width: 900px;
 }
 
 .title {
@@ -147,13 +156,13 @@ a:hover {
 .about-me {
     display: flex;
     width: 80vw;
+    min-width: 75vw;
     padding: 1rem;
     margin: 0.5rem;
     border-radius: 6px;
     background-color: var(--second-color);
     box-shadow: var(--shadow);
-    min-width: 50vw;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .profile {
@@ -176,7 +185,7 @@ a:hover {
 /* Social Media */
 
 .social-media li {
-    font-size: 0.40em;
+    font-size: 0.45em;
     padding-right: 5px;
     display: inline;
 }
@@ -194,6 +203,7 @@ a:hover {
     display: flex;
     margin: 0.5rem;
     width: 80vw;
+    min-width: 75vw;
     /* width: calc(80vw + 2rem);  */
     /* This way is failing with reset margings*/
 }
@@ -209,6 +219,7 @@ a:hover {
 
 .skills {
     width: 35vw;
+    min-width: 35vw;
     padding: 2rem;
     border-radius: 6px;
     background-color: var(--second-color);
@@ -219,16 +230,18 @@ a:hover {
 /* Projects */
 
 .projects {
+       
     display: flex;
-    /* flex-flow: row wrap; */
+    flex-flow: row wrap;
     width: 80vw;
     padding: 1rem;
-    min-width: 50vw;
-    overflow: auto;
+    min-width: 75vw;
     margin: 0.5em;
     border-radius: 6px;
     background-color: var(--second-color);
     box-shadow: var(--shadow);
+    
+    
 }
 
 .projects h2 {
@@ -241,13 +254,15 @@ a:hover {
     padding: auto;
     padding-bottom: 1rem;
     margin: 1rem;
-    width: 25%;
+    width: 30%;
+    max-width: 250px;
+    min-width: 200px;
     box-shadow: var(--shadow);
     color: #fff;
     background-color: var(--third-color);
     border-radius: 8px;
-    min-width: 50vw;
     overflow: auto;
+
 }
 
 .project a {
