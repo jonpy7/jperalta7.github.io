@@ -162,7 +162,7 @@ a:hover {
     border-radius: 6px;
     background-color: var(--second-color);
     box-shadow: var(--shadow);
-    overflow: hidden;
+    overflow: auto;
 }
 
 .profile {
@@ -177,7 +177,6 @@ a:hover {
 
 .about-me-text {
     padding: 1em;
-    overflow: auto;
     
 }
 
@@ -185,7 +184,7 @@ a:hover {
 /* Social Media */
 
 .social-media li {
-    font-size: 0.45em;
+    font-size: 0.40em;
     padding-right: 5px;
     display: inline;
 }
@@ -219,7 +218,7 @@ a:hover {
 
 .skills {
     width: 35vw;
-    min-width: 35vw;
+    min-width: 30vw;
     padding: 2rem;
     border-radius: 6px;
     background-color: var(--second-color);
@@ -256,7 +255,7 @@ a:hover {
     margin: 1rem;
     width: 30%;
     max-width: 250px;
-    min-width: 200px;
+    min-width: 250px;
     box-shadow: var(--shadow);
     color: #fff;
     background-color: var(--third-color);
