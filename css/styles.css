@@ -22,6 +22,7 @@ screens.*/
 
 html {
     font-size: calc(1em + 1vw);
+    
 }
 
 h1,
@@ -36,9 +37,7 @@ h3 {
 .container {
     margin: auto;
     margin-top: .5rem;
-    min-width: 80vw;
     padding: 0 20px;
-    /* overflow: hidden; */
 }
 
 .clr {
@@ -63,7 +62,7 @@ input {
 body {
     font-family: var(--font);
     margin: 0;
-    max-width: 90vw;
+    max-width: 1100px;
     min-width: 75vw;
     background-color: var(--first-color);
     padding-top: 4rem;
@@ -87,7 +86,6 @@ body {
     color: var(--third-color);
     box-shadow: var(--shadow);
     min-width: 900px;
-
 }
 
 
@@ -111,7 +109,7 @@ body {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     margin-right: 0px;
-    overflow: auto;
+    /* overflow: auto; */
     max-width: 1100px;
     min-width: 900px;
 }
@@ -156,7 +154,8 @@ a:hover {
 .about-me {
     display: flex;
     width: 80vw;
-    min-width: 75vw;
+    max-width: 1100px;
+    min-width: 575px;
     padding: 1rem;
     margin: 0.5rem;
     border-radius: 6px;
@@ -202,13 +201,15 @@ a:hover {
     display: flex;
     margin: 0.5rem;
     width: 80vw;
-    min-width: 75vw;
+    max-width: 1100px;
+    min-width: 575px;
     /* width: calc(80vw + 2rem);  */
     /* This way is failing with reset margings*/
 }
 
 .goals {
     width: 45vw;
+    min-width: 320px;
     padding: 2rem;
     border-radius: 6px;
     margin-right: 1rem;
@@ -218,7 +219,8 @@ a:hover {
 
 .skills {
     width: 35vw;
-    min-width: 30vw;
+    max-width: 1100px;
+    min-width: 235px;
     padding: 2rem;
     border-radius: 6px;
     background-color: var(--second-color);
@@ -234,7 +236,8 @@ a:hover {
     flex-flow: row wrap;
     width: 80vw;
     padding: 1rem;
-    min-width: 75vw;
+    max-width: 1100px;
+    min-width: 575px;
     margin: 0.5em;
     border-radius: 6px;
     background-color: var(--second-color);
@@ -436,6 +439,7 @@ input[type="submit"]:hover {
 .footer-contact-info {
     margin-top: 1rem;
     width: 100vw;
+    min-width: 900px;
     background-color: var(--fourth-color);
     color: #fff;
     text-align: center;
@@ -462,6 +466,7 @@ h3 {
 .footer {
     /* margin-top: 1rem; */
     width: 100vw;
+    min-width: 900px;
     padding-top: 1rem;
     background-color: var(--fourth-color);
     color: #fff;
