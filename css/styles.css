@@ -161,6 +161,7 @@ a:hover {
 .profile-pic {
     overflow: hidden;
     border-radius: 10px;
+    
 }
 
 .about-me-text {
@@ -171,7 +172,8 @@ a:hover {
 /* Social Media */
 
 .social-media li {
-    font-size: 0.35em;
+    font-size: 0.40em;
+    padding-right: 5px;
     display: inline;
 }
 
