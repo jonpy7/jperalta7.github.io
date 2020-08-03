@@ -24,6 +24,7 @@ body{
     justify-items: center;
 }
 
+
 .banner{
     width: 100%;
     display:flex;
@@ -35,6 +36,10 @@ body{
     top: 0;
     color: var(--third-color);
     box-shadow: var(--shadow);
+    min-width: 900px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
 }
 .title{
     margin-left: 1em;
@@ -64,6 +69,14 @@ a:hover{
     display: inline;
     margin: 1rem;
 }
+
+.nav a.current {
+    background: #444444;
+    color: #ffffff;
+    padding: 35.1px;
+    border: none;
+}
+
 
 .about-me{
     display: flex;
@@ -129,9 +142,6 @@ a:hover{
 
 .projects ul{
     list-style-type: none;
-    
-}
-.projects a{
 
 }
 
