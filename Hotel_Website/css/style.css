@@ -34,12 +34,12 @@ p {
 /* Utility Classes */
 
 
-/* .container {
+.container {
     margin: auto;
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
-} */
+}
 
 .text-primary {
     color: #f7c08a;
