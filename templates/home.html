@@ -1,0 +1,105 @@
+{% extends "layout.html" %}
+
+{% block title %} Juan's Portfolio {% endblock %}
+
+{% block body %}
+
+{% block header %}
+
+{% endblock %}
+
+    {% block content %}
+
+<div class="about-me">
+    <div class="profile">
+        <div class="profile-pic">
+           <img src="../static/images/Juan_P_Pro_Pic2.jpg" width="200px">
+        </div>
+        <div class="social-media">
+            <ul>
+                <li>
+                <i class="fab fa-linkedin fa-1x"></i>
+                <a href="https://www.linkedin.com/in/mrperalta/" target="_blank">LinkedIn</a></li>
+                <li>
+                  <i class="fas fa-code-branch fa-1x"></i>
+                    <a href=https://github.com/jperalta7/TKH_Modules target="_blank">Github</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>My name is Juan, I am a Systems Engineer and Intructional Design Magister. 
+        My hobbies include learning new technologies, listening to music and following smart people shows. I also enjoy walking and going to the park. My ultimate goal is to continue mastering my coding skills, so that I can become a Data Engineer.</p>
+    </div>
+</div>
+<div class="career">
+    <div class="goals">
+        <h2>My Goals</h2>
+        <p>My career goal is to become a Data Analytics Engineer and work at a company that uses data to create products 
+            that improve the life of its customers. 
+        </p>      
+        
+    <p>After working as a Systems Analyst for the last four years with patient records data and reports, I became aware of my curiosity for learning and imrpoving myself and how much I like analyzing data and building data pipelines solutions. Because of this I believe data science will be the perfect career for me. </p>   
+
+    <p> Because of this I believe data science, will be the perfect career for me.   </p>
+
+    </div>
+    <div class="skills">
+        <h2>My Skills</h2>
+        <ul>
+          <li>Python & Flask </li>
+          <li>HTML5 & CSS3 </li>
+          <li>MySQL, PostGreSQL, T-SQL</li>
+          <li>Microsoft Data Tools (SSMS, SSRS, SSIS)</li>
+          <li>Familiar with XML, JS & PHP</li>
+          <li>Microsoft Office Suite</li>
+          <li>Systems Analysis & Design</li>
+          <li>Organization</li>
+          <li>Efficient Time Management</li>
+          <li>Problems solving</li>
+            
+        </ul>
+    </div>
+</div>
+<div class="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+        <a href="index.html"><h3>My Porfolio</h3>
+        </a>
+        <img src="../static/images/JPortofolio-Screenshot-CSS.png" width="200px">
+        <p>This is my porfolio site</p>
+    </div>
+    <div class="project">
+        <a href="/Hotel_Website/portfolio-hotel.html">
+            <h3>Hotel JP</h3>
+
+            <img src="../static/images/HotelJP_Screenshot.png" width="200px" />
+        </a>
+        <p>This is a HTML5 & CSS6 website</p>
+    </div>
+    <div class="project">
+        <a href="jpcal_projectdetails.html">
+            <h3>JP Calc</h3>
+
+            <img src="../static/images/JPCalculator.png" width="200px" />
+        </a>
+        <p>HTML, CSS, JS Calculator site</p>
+    </div>
+</div>
+<div class="contact-form">
+    <h2>Contact Me!</h2>
+    <form class="contact">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" name="email"><br>
+        <label for="message"> Your message</label><br>
+        <input type="text" name="message"><br>
+        <input class="submit-btn" type="submit"name="Contact"><br>
+    </form>
+</div> 
+{% endblock %} ##Content Section
+
+{% endblock %}
+
+
